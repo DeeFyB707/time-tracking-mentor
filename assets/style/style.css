@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh !important;
+    height: 100dvh !important;
+    background-color: hsl(226, 43%, 10%) !important;
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: rubikB;
+    src: url(../fonts/Rubik-Bold.ttf);
+}
+
+.cardBody {
+    border-radius: 12px;
+    background-color: hsl(235, 46%, 20%);
+}
+
+.insideCardBody {
+    border-radius: 12px;
+    background-color: hsl(246, 80%, 60%);
+    padding-bottom: 68px !important;
+}
+
+.icon {
+    width: 68px;
+    height: 68px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.reportFor {
+    margin: 0;
+    margin-top: 28px;
+    font-family: rubik;
+    font-weight: 300;
+    font-size: 13px;
+    color: hsl(236, 100%, 87%);
+}
+
+.userHead {
+    font-family: rubik;
+    font-weight: 400;
+    font-size: 36px;
+    color: hsl(236, 100%, 87%);
+}
+
+.switchBtns {
+    border: none;
+    outline: none;
+    background-color: transparent !important;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(235, 45%, 61%);
+    margin-top: 20px;
+    margin-left: 48px;
+    transition: 0.3s;
+}
+
+.switchBtns:hover {
+    color: #E1E6EB;
+}
+
+.switchBtns.active {
+    color: #fff; /* White color for the active button */
+}
+
+.rightCardsBody {
+    border-radius: 12px;
+    color: white;
+}
+
+/* Background colors for each card type */
+.bg-work {
+    background-color: hsl(15, 100%, 70%);
+    background-image: url(../images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.bg-play {
+    background-color: hsl(195, 74%, 62%);
+    background-image: url(../images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.bg-study {
+    background-color: hsl(348, 100%, 68%);
+    background-image: url(../images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.bg-exercise {
+    background-color: hsl(145, 58%, 55%);
+    background-image: url(../images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.bg-social {
+    background-color: hsl(264, 64%, 52%);
+    background-image: url(../images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.bg-selfcare {
+    background-color: hsl(43, 84%, 65%);
+    background-image: url(../images/icon-selfcare.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.insideCards {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.insideCards:hover {
+    background-color: hsl(235, 29%, 46%);
+}
+
+.timeHead {
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
+
+.contextMenu {
+    height: 10px;
+    width: 15px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-image: url(../images/icon-ellipsis.svg);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    transition: filter 0.4s; /* Smooth transition */
+}
+
+.contextMenu:hover {
+    filter: brightness(5%) saturate(100%) invert(95%); /* Adjust this to change the color */
+}
+
+.times {
+    font-family: rubik;
+    font-weight: 400;
+    font-size: 44px;
+    color: #fff;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.last {
+    font-family: rubik;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(236, 100%, 87%);
+    margin: 0;
+    margin-top: 7px;
+}
